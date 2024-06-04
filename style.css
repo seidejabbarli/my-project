@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* first-container */
+.first-container{
+    background-image: url(./assets/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.layout{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color:rgba(33, 42, 224, ) ; 
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+}
+
+.start-game{
+    background-color:rgba(254, 165, 0, 0.529);
+    cursor: pointer;
+    padding: 20px 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    transition: 1s all;
+    color: white;
+}
+.start-game:hover{
+    background-color:rgba(254, 165, 0, 0.701) ;
+}
+
+/* container */
+.container{
+    display: none;
+    background-image: url(./assets/bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.layout-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    height: 100vh;
+    background-color:rgba(240, 255, 255,0.7);
+}
+h2{
+    font-size: 40px;
+    color: navy;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+ .buttons>button{
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color:navy ;
+    transition: 0.5s all;
+    box-shadow: 2px 5px 5px rgb(65, 65, 140);
+ }
+ .buttons>button:hover{
+    background-color: rgb(32, 32, 158);
+ }
+
+ .lotos{
+    padding: 0px 5px;
+     width: 80%;
+     height: 80px;
+     border: 2px solid navy;
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     overflow: auto;
+     gap: 10px;
+     border-radius: 20px;
+     box-shadow: 5px 5px 15px rgb(65, 65, 140);
+ }
+
+
+.loto{
+    color: whitesmoke;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(0, 0, 128,0.8);
+    box-shadow: 2px 2px 5px rgb(65, 65, 140);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
